@@ -25,13 +25,13 @@ This script provides a robust solution for loading CSV data into Trino/Iceberg t
 ## Dependencies
 
 The script requires the following Python packages:
-- `pandas` (version 1.0.0 or higher): For CSV data manipulation
-- `trino` (version 0.305.0 or higher): Python client for Trino database
-- `pyyaml` (version 5.1 or higher): For parsing YAML configuration files
-- `json` (standard library): For parsing JSON configuration files
-- `argparse` (standard library): For command-line argument parsing
-- `os` (standard library): For file path operations
-- `datetime` (standard library): For date handling
+- `pandas`  
+- `trino`  
+- `pyyaml` 
+- `json` 
+- `argparse` 
+- `os` 
+- `datetime` 
 
 Installation command:
 ```bash
@@ -53,7 +53,7 @@ from datetime import datetime
 ```
 
 - `pandas as pd`: Used for reading and manipulating CSV data with DataFrames
-- `trino`: Python client for connecting to Trino database
+- `trino`: Python client for connecting to The database
 - `argparse`: For parsing command-line arguments
 - `yaml`: For reading YAML configuration files
 - `json`: For reading JSON configuration files
